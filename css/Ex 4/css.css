@@ -1,0 +1,30 @@
+span{
+	background-color:yellow
+}
+
+h1 {
+	background-color:#FF0000
+}
+
+p.a{
+	font-family:arial;
+	font-size:large;
+	font-style:oblique;
+	text-align:center;
+}
+
+p.b{
+	font-family:Comic Sans Ms;
+	font-size:xx-large;
+	font-style:normal;
+	text-align:right;
+}
+
+p.c{
+	font-family:Comic Sans Ms;
+	font-size:medium;
+	font-style:normal;
+	text-indent:1cm;
+	letter-spacing:0.5cm;
+	text-transform:capitalize;
+}

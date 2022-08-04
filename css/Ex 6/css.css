@@ -1,0 +1,19 @@
+p.a {
+	border:red solid;
+	margin:10%;
+	color:#ff0000;
+}
+
+p.b {
+	border:green solid;
+	margin-left:20px;
+	margin-right:10cm;
+	margin-bottom:0px;
+	color:#00ff00;
+}
+
+p.c {
+	border:blue solid;
+	margin-top:0px;
+	color:#0000ff;
+}

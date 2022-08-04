@@ -1,0 +1,70 @@
+@-webkit-keyframes vid {
+	0% {width: 0; height: 0%;}
+	50% {width: 100%; height: 10%;}
+	100% {width: 100%; height: 100%;}
+}
+
+@keyframes vid {
+	0% {width: 0; height: 0%;}
+	50% {width: 100%; height: 10%;}
+	100% {width: 100%; height: 100%;}
+}
+
+.video-info {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+	z-index: 100;
+}
+
+.video-info:target {
+	display: block;
+	position: fixed;
+	outline: 0;
+	padding: 0;
+	-webkit-animation-name: vid;
+	-webkit-animation-duration: 1s;
+	animation-name: vid;
+	animation-duration: 1s;
+}
+
+.butn {
+	text-decoration: none;
+	float: right;
+	color: #fff;
+	position: fixed;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 101;
+}
+
+.butn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.game-block-video-title, .game-block-video-body {
+	position: relative;
+	bottom: 65px;
+	padding-left: 15px;
+}
+
+.game-block-video-title {
+	font-size: 18px;
+	font-size: 1.8rem;
+	margin: 0;
+	font-weight: bold;
+}
+
+.game-block-video-body {
+	margin: 5px 0 10px 0;
+	font-size: 12px;
+	font-size: 1.2rem;
+}

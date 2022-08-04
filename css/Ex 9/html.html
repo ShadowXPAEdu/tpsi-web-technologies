@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="UTF-8" />
+
+		<style type="text/css">
+
+			img {
+				width: 800px;
+				height: 600px;
+			}
+
+			img:first-child {
+				float: left;
+			}
+
+			img:last-child {
+				float: right;
+			}
+
+			img::after {
+				clear: both;
+			}
+
+		</style>
+
+		<title>Exercício 9</title>
+
+	</head>
+
+	<body>
+
+		<img src="bg1.jpg" title="Imagem com float: left;" /> <!-- 4:3 aspect ratio -->
+		<img src="bg2.jpg" title="Imagem com float: right;" />
+
+	</body>
+
+</html>

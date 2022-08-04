@@ -1,0 +1,416 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::before, ::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	color: #3c4148;
+	margin: 0;
+	background: #fff;
+	right: 0;
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("http://i.cdn.turner.com/drp/nba/thunder/sites/all/themes/etowah_radix/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://i.cdn.turner.com/drp/nba/thunder/sites/all/themes/etowah_radix/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("http://i.cdn.turner.com/drp/nba/thunder/sites/all/themes/etowah_radix/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("http://i.cdn.turner.com/drp/nba/thunder/sites/all/themes/etowah_radix/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+@font-face {
+  font-family: "nba-custom";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://i.cdn.turner.com/nba/nba/teamsites/fonts/nba-custom_47f454dc1e054575ab6c2a63cbc17e46.eot?#iefix") format("embedded-opentype"), url("https://i.cdn.turner.com/nba/nba/teamsites/fonts/nba-custom_47f454dc1e054575ab6c2a63cbc17e46.woff") format("woff"), url("https://i.cdn.turner.com/nba/nba/teamsites/fonts/nba-custom_47f454dc1e054575ab6c2a63cbc17e46.ttf") format("truetype"), url("https://i.cdn.turner.com/nba/nba/teamsites/fonts/nba-custom_47f454dc1e054575ab6c2a63cbc17e46.svg#nba-custom") format("svg");
+}
+/* NÃO FUNCIONA =( */
+@font-face {
+	font-family: "nba-custom";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../FONT/nba-custom-eot.eot") format("embedded-opentype"), url("../FONT/nba-custom.woff") format("woff"), url("../FONT/nba-custom-ttf.ttf") format("truetype"), url("../FONT/nba-custom-svg.svg") format("svg");
+} 
+/* */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+a[name] {
+	cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2, .h2 {
+    font-size: 30px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+}
+
+h4 {
+	color: #383838;
+	margin: 20px 0 10px 0;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+@media (min-width: 640px) {
+	h4 {
+		margin: 20px 0;
+	}
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+p, h1, h2, li, ul {
+    font-family: 'proxima-nova', Gotham, 'Helvetica Neue', Helvetica,Arial, sans-serif;
+}
+
+h2 {
+	color: #383838;
+	font-size: 2.8rem;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+	margin-bottom: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+input {
+	line-height: normal;
+}
+
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+}
+
+pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #333;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+[data-icon]::before, .icon-arrow-down::before, .button-primary__arrow--down::before, .field-name-field-photos[data-field_render_type="image_wisl"] .gallery_row_next::before, .global-nav__menu-item.expanded > a::before, .icon-arrow-left::before, .bx-prev::before, .main-nav .menuConsume-more .sliding-menu-close::before, .icon-arrow-right::before, .button-primary__arrow--right::before, .gallery__related-galleries .header a::before, .bx-next::before, .more-link a::before, .stats-leaders-qualified-leaders::before, .icon-arrow-up::before, .field-name-field-photos[data-field_render_type="image_wisl"] .gallery_row_prev::before, .icon-blog::before, .icon-overlay--blog::before, .icon-calendar::before, .icon-checkmark::before, .icon-close::before, .focus--roster .roster__player__info::before, .icon-download::before, .icon-dropdown-arrows::before, .dropdown-toggle .caret::before, .icon-email::before, .team-contact__method--email__link::before, .icon-facebook-basic::before, .icon-overlay--facebook-basic::before, .social-facebook-icon::before, .icon-feed::before, .icon-flight::before, .icon-fullscreen::before, .icon-game-block-news::before, .game-block-container ul.nav-pills .news a::before, .icon-game-block-overview::before, .game-block-container ul.nav-pills .overview a::before, .icon-game-block-photos::before, .game-block-container ul.nav-pills .gallery a::before, .icon-game-block-stats::before, .game-block-container ul.nav-pills .stats a::before, .icon-game-block-videos::before, .game-block-container ul.nav-pills .video a::before, .icon-glob::before, .global-language-mobile::before, .icon-google-plus-basic::before, .icon-overlay--google-plus-basic::before, .social-google-plus-icon::before, .icon-grid-view::before, .icon-hamburger::before, .mobile-menu-hamburger::before, .icon-hotel::before, .icon-instagram::before, .icon-instagram-basic::before, .icon-overlay--instagram-basic::before, .social-instagram-icon::before, .icon-links::before, .icon-list-view::before, .icon-live-chat::before, .team-contact__method--live-chat__link::before, .icon-magnifying-glass::before, .search-box__icon::before, .search-box__submit-btn-icon::before, .icon-news::before, .icon-overlay--news::before, .icon-phone::before, .team-contact__method--phone::before, .icon-photos::before, .icon-overlay--photos::before, .icon-pinterest-basic::before, .icon-overlay--pinterest-basic::before, .social-pinterest-icon::before, .icon-play::before, .bx-start::before, .video-thumbnail-image a:hover::before, .icon-promotion::before, .icon-ra::before, .icon-replay::before, .gallery__replay a::before, .icon-rss::before, .rss-link::before, .icon-social-mobile::before, .social-bar__mobile-icon::before, .icon-stop::before, .bx-stop::before, .icon-tumblr-basic::before, .icon-overlay--tumblr-basic::before, .social-tumblr-icon::before, .icon-tv::before, .icon-twitter-basic::before, .icon-overlay--twitter-basic::before, .social-twitter-icon::before, .icon-videos::before, .icon-overlay--videos::before {
+    display: inline-block;
+    font-family: "nba-custom";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+    background: transparent;
+	color: #428bca;
+	text-decoration: none;
+}
+
+a, a:hover, a:active, a:focus {
+    color: #f05033;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a:hover, a:focus {
+	color: #2a6496;
+	text-decoration: underline;
+}
+
+table {
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.slick-track::before, .slick-track::after {
+	content: "";
+	display: table;
+}
+
+track::after {
+	clear: both;
+}
+
+.nav::before, .nav::after {
+	content: " ";
+	display: table;
+}
+
+.nav::after {
+	clear: both;
+}
+
+.clearfix::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix::before, .clearfix::after {
+	content: " ";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
+
+.container::after {
+	clear: both;
+}
+
+.container::before, .container::after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.container::before, .container::after {
+    content: " ";
+    display: table;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row::after {
+    clear: both;
+}
+
+.row::before, .row::after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.row::before, .row::after {
+    content: " ";
+    display: table;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-xs-12 {
+	width: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sprites-sprite, .turner-logo, .utility-logo a, .social-bar--news-block .social-bar__item a::before, .social-bar--photo-gallery .social-bar__item a::before {
+    background-image: url("../IMG/sprites.png");
+    background-repeat: no-repeat;
+}
+
+.element-invisible {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+}
+
+.element-invisible, .team-contact h4 {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+}
+
+.icon-arrow-down::before, .button-primary__arrow--down::before, .field-name-field-photos[data-field_render_type="image_wisl"] .gallery_row_next::before, .global-nav__menu-item.expanded > a::before {
+    content: "\f100";
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #ddd;
+}
+
+.nav {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#nba_tos {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #fff;
+	border-top: 15px solid #cc1046;
+	z-index: 1000;
+	display: block;
+}
+
+#nba_tos:target {
+	display: none;
+}
+
+#nba_tos_inner {
+	min-height: 60px;
+	padding: 5px 10%;
+	border-top: 2px solid #ccc;
+	font-size: 14px;
+	line-height: 20px;
+	-webkit-text-size-adjust: none;
+	padding-right: 10%;
+}
+
+#nba_tos a, #nba_tos a:hover, #nba_tos a:active, #nba_tos a:visited {
+    color: #06c;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#nba_tos_close_button {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    margin: 0;
+}
+
+#nba_tos_close_button {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	margin: 0;
+	background: url("../IMG/agree_close.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 40px;
+	width: 40px;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+#game-block-container-id {
+	display: block;
+}
+
+#game-block-container-id:target {
+	display: none;
+}

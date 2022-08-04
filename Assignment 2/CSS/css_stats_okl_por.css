@@ -1,0 +1,78 @@
+td {
+	background: transparent !important;
+	border: none !important;
+	color: #ddd;
+	padding-left: 5px !important;
+	padding-right: 2px !important;
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	text-align: center;
+}
+
+.player-name {
+	color: #fff;
+	font-size: 11px;
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #f9f9f9;
+}
+
+tr.even, tr.odd {
+	background-color: #eee;
+	padding: 0.1em 0.6em;
+}
+
+th {    
+	border: none !important;
+    color: #bbb;
+    padding-left: 5px !important;
+    padding-right: 2px !important;
+    text-align: center;
+	padding-left: inherit !important;
+	padding-right: inherit !important;
+}
+
+table {
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.table-bordered {
+	background-image: url("../IMG/index.svg");
+	background-size: 100%;
+	background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#141414),color-stop(100%,#101010));
+	background-image: -moz-linear-gradient(#141414,#101010);
+	background-image: -webkit-linear-gradient(#141414,#101010);
+	background-image: linear-gradient(#141414,#101010);
+	font-size: 10px;
+	font-size: 1rem;
+	border: none;
+	border-top: 2px solid #0E0E0E;
+}
+
+.box-score-wrapper {
+	clear: both;
+}
+
+tr {
+	border: none;
+	background: url("../IMG/darkHorzDouble.jpg") center bottom repeat-x !important;
+}
+
+tbody {
+	border-top: none;
+}
+
+a {
+	text-decoration: none;
+}
