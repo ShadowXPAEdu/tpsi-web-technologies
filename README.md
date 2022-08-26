@@ -25,4 +25,6 @@ Assignment 2:
 
 ## Conclusions
 
+Wordpress allows you to create websites fast and easily, without much programming knowledge. Personally, I did not enjoy it as much as the second assignment, which did not use Wordpress.  
+
 Final Grade: 18
