@@ -23,8 +23,6 @@ Assignment 2:
 
 [@ShadowXPA](https://github.com/ShadowXPA)  
 
-## Final Grade
+## Conclusions
 
-The grades go from **0** to **20**. They were divided into **Continuous Evaluation** and **Exam**. The formula for the final grade is **`0.7 * CE + 0.3 * E`**, where **CE** is the **Continuous Evaluation** grade, and **E** is the **Exam** grade.  
-My **CE** grade was **18.29**, and my **E** grade was **15.87**.  
-So the **final grade** was **18**.
+Final Grade: 18
