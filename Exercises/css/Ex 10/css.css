@@ -1,0 +1,153 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+span {
+	display: block;
+	text-align: center;
+}
+
+span.alias {
+	cursor: alias;
+}
+
+span.all-scroll {
+	cursor: all-scroll;
+}
+
+span.auto {
+	cursor: auto;
+}
+
+span.cell {
+	cursor: cell;
+}
+
+span.context-menu {
+	cursor: context-menu;
+}
+
+span.col-resize {
+	cursor: col-resize;
+}
+
+span.copy {
+	cursor: copy;
+}
+
+span.crosshair {
+	cursor: crosshair;
+}
+
+span.default {
+	cursor: default;
+}
+
+span.e-resize {
+	cursor: e-resize;
+}
+
+span.ew-resize {
+	cursor: ew-resize;
+}
+
+span.grab {
+	cursor: grab;
+}
+
+span.grabbing {
+	cursor: grabbing;
+}
+
+span.help {
+	cursor: help;
+}
+
+span.move {
+	cursor: move;
+}
+
+span.n-resize {
+	cursor: n-resize;
+}
+
+span.ne-resize {
+	cursor: ne-resize;
+}
+
+span.nesw-resize {
+	cursor: nesw-resize;
+}
+
+span.ns-resize {
+	cursor: ns-resize;
+}
+
+span.nw-resize {
+	cursor: nw-resize;
+}
+
+span.nwse-resize {
+	cursor: nwse-resize;
+}
+
+span.no-drop {
+	cursor: no-drop;
+}
+
+span.none {
+	cursor: none;
+}
+
+span.not-allowed {
+	cursor: not-allowed;
+}
+
+span.pointer {
+	cursor: pointer;
+}
+
+span.progress {
+	cursor: progress;
+}
+
+span.row-resize {
+	cursor: row-resize;
+}
+
+span.s-resize {
+	cursor: s-resize;
+}
+
+span.se-resize {
+	cursor: se-resize;
+}
+
+span.sw-resize {
+	cursor: sw-resize;
+}
+
+span.text {
+	cursor: text;
+}
+
+span.w-resize {
+	cursor: w-resize;
+}
+
+span.wait {
+	cursor: wait;
+}
+
+span.zoom-in {
+	cursor: zoom-in;
+}
+
+span.zoom-out {
+	cursor: zoom-out;
+}
+
+span.url {
+	cursor: url("cursor.gif"), auto;
+}

@@ -1,0 +1,22 @@
+p.a {
+	border-style: dotted;
+	border-width: medium;
+	border-color: black;
+}
+
+p.b {
+	border-style: double;
+	border-width: medium;
+	border-color: green;
+}
+
+p.c{
+	border-bottom-color:green;
+	border-bottom-style:dashed;
+	border-top-color:blue;
+	border-top-style:dotted;
+	border-left-color:red;
+	border-left-style:solid;
+	border-right-color:green;
+	border-right-style:solid;
+}

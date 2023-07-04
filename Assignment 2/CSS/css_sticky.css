@@ -1,0 +1,5 @@
+.eu_quero_sticky {
+	position: sticky !important;
+	top: 0px !important;
+	z-index: 999 !important;
+}

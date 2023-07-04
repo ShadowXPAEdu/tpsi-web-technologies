@@ -1,0 +1,145 @@
+.global-nav-wrapper {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 1000;
+}
+
+.main-nav__menu-item a:hover {
+	color: #fff;
+}
+
+.utility-logo {
+	margin-right: 40px;
+    overflow: hidden;
+    float: left;
+}
+
+.utility-logo a {
+    display: block;
+    margin-top: 6px;
+    width: 90px;
+    height: 20px;
+    background-position: 0 0;
+}
+
+.global-nav {
+    font-size: 12px;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin: 8px 0 6px 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.global-nav__menu-item {
+    margin: 0 30px 0 0;
+	float: left;
+    padding: 0;
+    position: relative;
+    height: 27px;
+}
+
+.global-nav__menu-item a {
+    color: #0068b3;
+    padding: 13px 0;
+}
+
+.global-nav__menu-item a:hover {
+    color: #007ed9;
+    text-decoration: underline;
+}
+
+/* - */
+
+li.global-nav__menu-item.expanded.has-dropdown.em-smi.em-ti ul {
+	display: none;
+}
+
+li.global-nav__menu-item.expanded.has-dropdown.em-smi.em-ti:hover {
+	cursor: pointer;
+}
+
+li.global-nav__menu-item.expanded.has-dropdown.em-smi.em-ti:hover ul {
+	display: block;
+}
+
+/* -- */
+
+.global-nav__menu-item.expanded > a::before {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    font-size: 8px;
+}
+
+.global-nav__menu-item a {
+	color: #0068b3;
+	padding: 13px 0;
+	padding-right: 0px;
+}
+
+.global-nav__menu-item.expanded > a {
+    padding-right: 12px;
+}
+
+.global-nav__menu-item__sub-menu {
+	display: none;
+	float: none;
+	position: absolute;
+	top: 27px;
+	left: -10px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px 10px;
+	z-index: 100;
+	background-color: #fff;
+	width: 226px;
+}
+
+.em-focus {
+	display: block !important;
+}
+
+.global-nav__menu-item__sub-menu.em-smu {
+	left: -10px;
+}
+
+#global-nav__menu-item__teams-link-dropdown {
+	z-index: 105;
+}
+
+.global-nav__menu-item__sub-menu li {
+	float: left;
+	width: 103px;
+	line-height: 27px;
+	height: 27px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.global-nav__menu-item__sub-menu li:first-child {
+	width: 205px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.global-nav__menu-item__sub-menu .teamHDR {
+	font-weight: bold;
+	width: 205px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.global-nav__menu-item__sub-menu > .em-smi:first-child, .global-nav__menu-item__sub-menu .teamHDR {
+	width: 100% !important;
+	display: block;
+	float: none;
+}
+
+.em-ssmu a:hover, .em-smu a:hover {
+	color: #f05033;
+	background-color: transparent;
+}
+
+.global-nav__menu-item:last-child {
+	margin: 0;
+}

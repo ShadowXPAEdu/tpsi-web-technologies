@@ -1,0 +1,20 @@
+body > img {
+	width: 800px;
+	height: 600px;
+}
+
+body > img + img {
+	width: 600px;
+	height: 800px;
+}
+
+body > p + p {
+	border: 2px solid rgba(0, 255, 0, 0.5);
+	line-height: 0.5cm;
+}
+
+body > p + p + p {
+	border: 3px rgba(255, 0, 0, 0.7);
+	border-style: dotted solid double;
+	line-height: 1.3cm;
+}
